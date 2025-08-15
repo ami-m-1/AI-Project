@@ -2,139 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>AI In Our Community</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - AI In Our Community</title>
   <style>
     body {
       font-family: Tahoma, sans-serif;
       margin: 0;
       padding: 0;
+      color: black;
       background-color: #f9f9f9;
-      color: #333;
     }
 
-    nav {
-      background-color: #222;
-      padding: 15px;
+    .navbar {
+      background-color: black;
+      padding: 15px 0;
       text-align: center;
     }
-    nav a {
+    .navbar a {
       color: white;
       text-decoration: none;
       margin: 0 20px;
-      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 14px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
     }
-    nav a:hover {
-      text-decoration: underline;
+    .navbar a:hover {
+      background-color: #333333;
+    }
+    .navbar a.active {
+      background-color: white;
+      color: black;
+      border-radius: 4px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
     header {
       text-align: center;
-      padding: 80px 20px;
+      margin-bottom: 20px;
     }
-    header h1 {
-      margin: 0 0 20px;
-      font-size: 2.5em;
+
+    h1, h2 {
+      color: #333;
     }
-    header p {
+
+    p, li {
       font-size: 1.1em;
-      max-width: 700px;
-      margin: 0 auto;
-      line-height: 1.6;
-    }
-
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 40px 20px;
-      gap: 30px;
-    }
-
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      width: 250px;
-      padding: 20px;
-      text-align: center;
-      transition: transform 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card h2 {
-      margin-top: 0;
-      color: #222;
-    }
-    .card p {
-      font-size: 0.95em;
       color: #555;
-    }
-    .card a {
-      display: inline-block;
-      margin-top: 10px;
-      text-decoration: none;
-      color: #0066cc;
-      font-weight: bold;
-    }
-    .card a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      background-color: #222;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 600px) {
-      .cards {
-        flex-direction: column;
-        align-items: center;
-      }
     }
   </style>
 </head>
 <body>
 
-  <nav>
+  <div class="navbar">
+    <a href="index.html" class="active">Home</a>
     <a href="about.html">About Us</a>
     <a href="work.html">Our Work</a>
     <a href="contribute.html">Contribute</a>
-  </nav>
-
-  <header>
-    <h1>Building a Framework and Toolkit for Effective Participatory AI Engagement in Hard-to-Reach Populations:</h1>
-    <p>
-      A Case Study in Leveraging AI to Empower Underserved Patients in Understanding and Using their Medical Records
-    </p>
-  </header>
-
-  <div class="cards">
-    <div class="card">
-      <h2>About Us</h2>
-      <p>Learn more about our team, our research goals, and how we engage communities to learn about AI.</p>
-      <a href="about.html">Explore →</a>
-    </div>
-    <div class="card">
-      <h2>Our Work</h2>
-      <p>Discover our research findings, recommendations, and tools we’ve developed.</p>
-      <a href="work.html">Explore →</a>
-    </div>
-    <div class="card">
-      <h2>Contribute</h2>
-      <p>Find out how you can participate, collaborate, and support our research efforts.</p>
-      <a href="contribute.html">Explore →</a>
-    </div>
   </div>
 
-  <footer>
-    <p>Contact:</p>
-    <p>Project Lead | Dr. Tera Reynolds | reynoter@umbc.edu</p>
-    <p>Website Developer | Ami Mundra | amundra@seas.upenn.edu</p>
-  </footer>
+  <header>
+    <h1>Welcome to AI In Our Community</h1>
+  </header>
+
+  <main>
+    <p>
+      Our project explores how participatory artificial intelligence (AI) can be used to support community health initiatives. We partner with local organizations to co-design AI tools that are accessible, ethical, and useful for underserved populations.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+      We aim to bridge the gap between cutting-edge AI research and practical community impact, ensuring that technology benefits everyone, especially those traditionally hard to reach.
+    </p>
+
+    <h2>Get Involved</h2>
+    <p>
+      Learn more about our work, contribute your expertise, or collaborate on future projects by visiting our About Us, Our Work, and Contribute pages.
+    </p>
+  </main>
 
 </body>
 </html>
