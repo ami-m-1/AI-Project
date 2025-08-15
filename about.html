@@ -1,11 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - AI In Our Community</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    nav {
+      background-color: #222;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      margin-top: 20px;
+      color: #333;
+    }
+    p {
+      max-width: 700px;
+      margin: 10px auto 30px;
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    .team-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .team-member {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .team-member h3 {
+      margin: 10px 0 5px;
+      color: #222;
+    }
+
+    .team-member p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
 <body>
-  <h1>
-    About Us
-  </h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="work.html">Our Work</a>
+    <a href="contribute.html">Contribute</a>
+  </nav>
+
+  <h1>About Us</h1>
   <p>
-    Our team is led by Dr. Tera Reynolds from the University of Maryland, Baltimore Campus. Working alongside her is a team of graduate and undergraduate students!
+    Our team is led by Dr. Tera Reynolds from the University of Maryland, Baltimore Campus.
+    Working alongside her is a team of graduate and undergraduate students!
   </p>
+
+  <!-- First row: 1 person -->
+  <div class="team-row">
+    <div class="team-member">
+      <img src="images/tera_reynolds_small-768x768.jpg" alt="Dr. Tera Reynolds">
+      <h3>Dr. Tera Reynolds</h3>
+      <p>Team Lead — Faculty member at UMBC focusing on AI ethics and community engagement.</p>
+    </div>
+  </div>
+
+  <!-- Second row: 3 people -->
+  <div class="team-row">
+    <div class="team-member">
+      <img src="images/Alomgeer.jpg" alt="Alomgeer Hussein">
+      <h3>Alomgeer Hussein</h3>
+      <p>Alomgeer Hussein is...</p>
+    </div>
+    <div class="team-member">
+      <img src="headshotxo.jpg" alt="Ami Mundra">
+      <h3>Ami Mundra</h3>
+      <p>Ami Mundra is an undergraduate student at the University of Pennsylvania studying Computer Science. She is overjoyed to be working on this project alongside Dr. Reynolds, and is also the creator of this website. Her background lies in Artificial Intelligence research and programming.</p>
+    </div>
+    <div class="team-member">
+      <img src="images/Alomgeer Hussein" alt="Rushali Sreedhar">
+      <h3>Rushali Sreedhar</h3>
+      <p>Alomgeer Hussein is...</p>
+    </div>
+  </div>
+
+  <!-- Third row: 3 people -->
+  <div class="team-row">
+    <div class="team-member">
+      <img src="sanika.JPG" alt="Sanika Bishnoi">
+      <h3>Sanika Bishnoi</h3>
+      <p>Sanika Bishnoi is...</p>
+    </div>
+    <div class="team-member">
+      <img src="IMG.jpg" alt="Samon Nguyen">
+      <h3>Samon Nguyen</h3>
+      <p>Samon Nguyen is...</p>
+    </div>
+    <div class="team-member">
+      <img src="yachi.JPG" alt="Yachi Patel">
+      <h3>Yachi Patel</h3>
+      <p>Yachi Patel is...</p>
+    </div>
+  </div>
+
 </body>
 </html>
